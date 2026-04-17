@@ -17,7 +17,7 @@ import requests
 # ==================== 설정 ====================
 
 # 시작 날짜 (Day 1이 되는 날). 본인 시작일로 바꾸세요.
-START_DATE = datetime(2026, 4, 18, tzinfo=timezone(timedelta(hours=9)))
+START_DATE = datetime(2026, 4, 17, tzinfo=timezone(timedelta(hours=9)))
 
 # Claude 모델
 CLAUDE_MODEL = "claude-opus-4-5"
